@@ -1,0 +1,34 @@
+.Carousel {
+    background-image: url(/public/2.924b429a0601a89b04e1.jpg);
+    height: 400px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+}
+.arrow:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+
+}
+.videoBtn{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}

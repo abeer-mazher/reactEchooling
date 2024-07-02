@@ -1,0 +1,52 @@
+.Footerlinks{
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px; 
+}
+.Footerlinks ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+
+}
+.Footerlinks ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.781);
+}
+.Footerlinks ul a:hover{
+    color: rgba(226, 18, 18, 0.986);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.inputdiv{
+    display: flex;
+    height: 55px;
+    width: 230px;
+    background-color: black;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.inp{
+    width:75%;
+    height: 100%;
+}
+.inputdiv .inp input{
+    height:100%;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.inpbtn{
+    width: 25%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

@@ -1,0 +1,19 @@
+.topBar {
+    background-color: #00306e;
+    color: white;
+}
+.topBar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+.topBar ul a{
+    text-decoration:  none;
+    color: white;
+}
+.topBar ul a:hover{
+    color: rgba(218, 218, 218, 0.747);
+    transition: .5s;
+}

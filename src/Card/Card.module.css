@@ -1,0 +1,32 @@
+.cardBox{
+    position: relative;
+}
+.cardDetails{
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+    font-weight: 500;
+    line-height: 0;
+    color: white;
+}
+.imgDiv{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.877);
+    opacity: 0;
+    transition: .5s;
+}
+
+.cardBox:hover .overlay{
+    opacity: 1;
+}
+.cardBox:hover .cardDetails{
+    color: rgba(255, 255, 255, 0.644);
+}

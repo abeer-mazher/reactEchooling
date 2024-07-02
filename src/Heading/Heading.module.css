@@ -1,0 +1,9 @@
+.heading{
+    padding: 0 20px;
+}
+.heading p {
+    color: #00306e;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 10px;
+}
